@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react';
 import PropType from 'prop-types';
 
-class PlanetCard extends React.Component {
+class PlanetCard extends Component {
   render() {
     const { planetName, planetImage } = this.props;
     return (
