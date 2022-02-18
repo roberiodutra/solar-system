@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react';
 import PropType from 'prop-types';
 
-class MissionCard extends React.Component {
+class MissionCard extends Component {
   render() {
     const { destination, country, year, name } = this.props;
     return (
