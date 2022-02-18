@@ -10,7 +10,7 @@ class SolarSystem extends React.Component {
         <Title headline="Planetas" />
         {planets.map((el) => (
           <PlanetCard
-            key={ el.name.toString() }
+            key={ el.name }
             planetName={ el.name }
             planetImage={ el.image }
           />
